@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TechStore Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qaExtentReportListener.ExtentReportListener" />
+	</listeners>
+
+
+	<test name="TechStore App Test Cases">
+		<classes>
+			<class name="com.techstorehk.CommonSteps"></class>
+			<class name="com.techstorehk.HomePageSteps"></class>
+
+		</classes>
+	</test>
+</suite>
